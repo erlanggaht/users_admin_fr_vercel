@@ -1,0 +1,39 @@
+.formInput {
+    padding: 1rem 2rem ;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 19px -4px rgba(158,158,158,0.76);
+    -webkit-box-shadow: 0px 0px 19px -4px rgba(158,158,158,0.76);
+    -moz-box-shadow: 0px 0px 19px -4px rgba(158,158,158,0.76);    border-radius: 5px;
+    
+}
+
+.SubmitGroupButton {
+    text-align: right;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+.inputSignup {
+    margin:12px
+}
+
+.navigasi {
+    padding: 1em 2em ;
+    border-bottom: #eee solid 2px;
+}
+
+.footer {
+    padding: 1em 2em ;
+    border-top: #eee solid 2px;
+    margin:1rem 0 .5rem 0
+}
+
+.logoutText {
+    position: absolute;
+    bottom: 10px;
+    text-align: right;
+    right: 5px;
+}
