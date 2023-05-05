@@ -30,6 +30,7 @@ export default function Page() {
 
   useEffect(() => {
     setLoadingPage(true)
+
     refreshToken();
     if (name) {
       setLoadingPage(false)
@@ -40,6 +41,14 @@ export default function Page() {
       });
     }
   }, [name]);
+  useEffect(()=>{
+    setLoading(true)
+
+    setTimeout(()=>{
+      setLoadingPage(false)
+    },1200)
+
+  },[])
 
   const refreshToken = async () => {
     try {
