@@ -28,12 +28,18 @@ export default function Page() {
     active: "",
   });
 
+  
   useEffect(() => {
-    setLoadingPage(true)
-
-    refreshToken();
+    
+    async function timeFunc () {
+    await  refreshToken() 
+    setLoadingPage(false)
+    
+    }
+    setTimeout(() => {
+      setLoadingPage(true)
+    },timeFunc())
     if (name) {
-      setLoadingPage(false)
       setToastNotif({
         teks: "selamat datang kembali " + `${name}`,
         status: "success",
@@ -41,14 +47,7 @@ export default function Page() {
       });
     }
   }, [name]);
-  useEffect(()=>{
-    setLoading(true)
 
-    setTimeout(()=>{
-      setLoadingPage(false)
-    },1200)
-
-  },[])
 
   const refreshToken = async () => {
     try {
@@ -103,10 +102,14 @@ export default function Page() {
       setData(response.data);
       setLoading(false)
     } catch (error) {
-        alert("tidak dapat melihat database kami, silahkan login");
+      setLoading(false)  
+      alert("tidak dapat melihat database kami, silahkan login");
+        
     }
   }
+  
 
+  
 
    
   return (
@@ -126,21 +129,21 @@ export default function Page() {
 
     {/*  */}
 
-    <ContextGlobal.Provider value={{getUsers,refreshToken}}>
+    <ContextGlobal.Provider value={{getUsers,refreshToken,token}}>
       {/* Toast Notif */}
       {toastNotif.active ? <ToastStatusExample toastNotif={toastNotif} /> : ""}
       {/*  */}
       {loading &&<LoadingData/>}
 
       <NavigasiHeader token={token} name={name} getUsers={getUsers} />
-      {!token && (
+      {!decodedJwt && 
         <div style={{padding:'1rem'}}>
         <Alert status="warning">
           <AlertIcon />
           Silahkan login di&nbsp; <span style={{textDecoration:'underline'}}> Menu </span>&nbsp;untuk melihat database kami
         </Alert>
         </div>
-      )}
+      }
       <Heading className={styles.WelcomeMobilePage} display={'none'} margin={'1rem'}  textAlign={"center"} as={'h2'} size={'lg'} >Welcome {name && 'back,'}<span style={{color:"#e53e3e"}}> {name.split(' ')[0]}</span></Heading>
       <TableDatabase data={data} decodedJwt={decodedJwt} />
       </ContextGlobal.Provider>

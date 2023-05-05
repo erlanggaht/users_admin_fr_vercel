@@ -3,9 +3,9 @@ import styles from '../style.module.css'
 import '../global.css'
 import { InputComponent } from "./input_comp"
 import { Heading } from '@chakra-ui/react'
+import { getCookie } from 'cookies-next';
 
 export default function signup () {
-
     return (
 
         <div id="login">

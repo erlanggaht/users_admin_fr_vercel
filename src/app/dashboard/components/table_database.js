@@ -55,11 +55,11 @@ export default function TableDatabase({ data, decodedJwt }) {
             onClick={setHide.toggle}
             margin={"5px"}
           >
-            {!hide ? "Show" : "Hide"}
+            {!hide ? "Hide" : "Show"}
           </Button>
         </TableCaption>
         {hide && 
-        <Theads>
+        <Theads style={{  visibility: hide ?  "hidden" : "visible"}}>
         <Trs >
           <Ths>ID</Ths>
           <Ths>Nama</Ths>
@@ -69,7 +69,7 @@ export default function TableDatabase({ data, decodedJwt }) {
       </Theads>
         }
         
-        <Tbodys style={{  visibility: !hide ?  "hidden" : "visible" ,display:!hide && "none" }}>
+        <Tbodys style={{  display: hide && "none"}}>
           {data &&
             data.map((m, i) => {
               return (

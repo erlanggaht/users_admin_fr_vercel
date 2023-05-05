@@ -12,8 +12,7 @@ import  validateLogin, { formikDisabledLogin }  from "./validate";
 import { ErrorText } from "../signup/validate";
 import ToastStatusExample from "../dashboard/components/toastNotif";
 export const InputComponent = () => {
-
-  const {formik,toastNotif} = validateLogin()
+  const {formik,toastNotif,loadingButton} = validateLogin()
   const errorInput = formik.errors
 
   return (
@@ -38,7 +37,7 @@ export const InputComponent = () => {
         <div className={styles.SubmitGroupButton}>
         <ButtonGroup variant="outline" spacing="2">
         <Link href={'/signup'} style={{padding:"6px"}}>Signup</Link>
-        {!Object.keys(errorInput).length == 0 ?  <Button isDisabled colorScheme="red">Login</Button> : <Button type="submit" colorScheme="red">Login</Button>} 
+        {!Object.keys(errorInput).length == 0 ?  <Button isDisabled colorScheme="red">Login</Button> : <Button type="submit" colorScheme="red" isLoading={loadingButton && true}>Login</Button>} 
         </ButtonGroup>
         </div>
        

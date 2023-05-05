@@ -5,10 +5,8 @@ import axios from "axios";
 import { useState } from "react";
 import { localhost_port } from "../page";
 
-
-
-
 export default function validateLogin() {
+    const [loadingButton,setButtonLoading] = useState(false)
     const [toastNotif, setToastNotif] = useState({
         teks: "",
         status: "success",
@@ -28,20 +26,21 @@ export default function validateLogin() {
                 password : Yup.string().min(8,'password minimal 8 karakter').required('password harus di isi').matches(/[a-zA-Z]/, 'Kata sandi hanya boleh berisi huruf latin'),
         }),
         onSubmit : (values) => {
+            setButtonLoading(true)
             const {email,password} = values
-           const users = axios(`${localhost_port}/login`,{
+            axios(`${localhost_port}/login`,{
             method : "POST",
             data : {
                 email : email,
                 password : password
             },
-            'Access-Control-Allow-Credentials':true,
             withCredentials: true,
             }).then ((response)=> {
                 response.status <= 200 ?  location.href = '/' : ""
             }).catch(error => {
-                
+
                 if(error.response){
+                    setButtonLoading(false)
                     setToastNotif({
                         teks: error.response.data.msg,
                         status: "error",
@@ -61,5 +60,5 @@ export default function validateLogin() {
         }
     })
 
-    return {formik,toastNotif}
+    return {formik,toastNotif,loadingButton}
 }
