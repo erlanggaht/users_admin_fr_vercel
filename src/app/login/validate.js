@@ -36,9 +36,8 @@ export default function validateLogin() {
             },
             withCredentials: true,
             }).then ((response)=> {
-                response.status <= 200 ?  location.href = '/' : ""
+                response.status === 200 ?  location.href = '/' : null
             }).catch(error => {
-
                 if(error.response){
                     setButtonLoading(false)
                     setToastNotif({
