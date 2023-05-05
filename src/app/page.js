@@ -6,9 +6,10 @@ import ToastStatusExample from "./dashboard/components/toastNotif.js";
 import axios from "axios";
 import jwtDecode from "jwt-decode";
 import TableDatabase from "./dashboard/components/table_database.js";
-import { Alert, AlertIcon } from "@chakra-ui/react";
+import { Alert, AlertIcon, Heading, Spinner } from "@chakra-ui/react";
 import LoadingData from "./dashboard/components/loading.js";
 import ContextGlobal from "./dashboard/GlobalContext.js";
+import styles from './style.module.css'
 
 const port = '3002'
 export const localhost_port = `https://users-admin-bk-vercel.vercel.app`
@@ -18,8 +19,9 @@ export default function Page() {
   const [token, setToken] = useState("");
   const [expired, setExpired] = useState("");
   const [decodedJwt, setDecodedJwt] = useState("");
-  const [data, setData] = useState("");
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState("");
+  const [loadingPage,setLoadingPage] = useState('')
   const [toastNotif, setToastNotif] = useState({
     teks: "",
     status: "success",
@@ -27,8 +29,10 @@ export default function Page() {
   });
 
   useEffect(() => {
+    setLoadingPage(true)
     refreshToken();
     if (name) {
+      setLoadingPage(false)
       setToastNotif({
         teks: "selamat datang kembali " + `${name}`,
         status: "success",
@@ -94,9 +98,25 @@ export default function Page() {
     }
   }
 
+
    
   return (
     <>
+
+    {/* Loading Awal Halaman */}
+    {loadingPage ? <div className={styles.loadingPage}>
+    <Spinner
+  thickness='4px'
+  speed='0.65s'
+  emptyColor='gray.200'
+  color='blue.500'
+  size='xl'
+/>
+    </div> : ""
+}
+
+    {/*  */}
+
     <ContextGlobal.Provider value={{getUsers,refreshToken}}>
       {/* Toast Notif */}
       {toastNotif.active ? <ToastStatusExample toastNotif={toastNotif} /> : ""}
@@ -112,6 +132,7 @@ export default function Page() {
         </Alert>
         </div>
       )}
+      <Heading className={styles.WelcomeMobilePage} display={'none'} margin={'1rem'}  textAlign={"center"} as={'h2'} size={'lg'} >Welcome {name && 'back,'}<span style={{color:"#e53e3e"}}> {name.split(' ')[0]}</span></Heading>
       <TableDatabase data={data} decodedJwt={decodedJwt} />
       </ContextGlobal.Provider>
     </>

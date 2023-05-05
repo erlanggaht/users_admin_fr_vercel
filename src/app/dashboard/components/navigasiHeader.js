@@ -5,6 +5,7 @@ import { useState } from "react";
 import { HiServer,HiUser } from "react-icons/hi";
 import axios from "axios";
 import { localhost_port } from "@/app/page";
+import styles from '../../style.module.css'
 
 
 export function ListItemNav({getUser}) {
@@ -99,12 +100,13 @@ export default function navigasiHeader({token,name,getUsers}) {
           src="https://res.cloudinary.com/djsizjaee/image/upload/v1683010530/samples/erlangga/IMG_2230_ulbomc.jpg"
           alt="Erlangga Hidayatullah"
         />         
-        <Text color={'#e91e3e'} fontSize={'16px'} fontWeight={'bold'}>Portof.Me</Text>
+        <Text color={'#e53e3e'} fontSize={'16px'} fontWeight={'bold'}>Portof.Me</Text>
         </Flex>
         </Box>
         <Spacer />
-        <Heading textAlign={"center"} margin={'1rem'} as={'h2'} size={'lg'}>Welcome {name && 'back,'}<span style={{color:"#e53e3e"}}> {name.split(' ')[0]}</span></Heading>
-       
+        <Box gap="2" className={styles.WelcomeHeading}>
+        <Heading textAlign={"center"} as={'h2'} size={'lg'} >Welcome {name && 'back,'}<span style={{color:"#e53e3e"}}> {name.split(' ')[0]}</span></Heading>
+          </Box>
         <Spacer />
         <Box gap="2">
         <ButtonGroup gap='0'>

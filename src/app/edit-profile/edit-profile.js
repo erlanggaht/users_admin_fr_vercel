@@ -125,7 +125,7 @@ export default function EditProfile({
             </ModalBody>
 
             <ModalFooter>
-              <Button colorScheme="blue" mr={3} type="submit">
+              <Button colorScheme="red" mr={3} type="submit">
                 Simpan
               </Button>
               <Button onClick={() => handleClose()}>Kembali</Button>

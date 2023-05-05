@@ -1,1 +1,446 @@
-self.__RSC_MANIFEST={"__ssr_module_mapping__":{"611":{"*":{"id":"95958","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"":{"id":"95958","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"default":{"id":"95958","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false}},"2690":{"*":{"id":"88588","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"*","async":false},"":{"id":"88588","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"","async":false},"Providers":{"id":"88588","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"Providers","async":false}},"6587":{"*":{"id":"55266","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"*","async":false},"":{"id":"55266","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"","async":false},"default":{"id":"55266","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"default","async":false}},"7045":{"*":{"id":"50842","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"*","async":false},"":{"id":"50842","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"","async":false},"default":{"id":"50842","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"default","async":false}},"8331":{"*":{"id":"81551","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"":{"id":"81551","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"default":{"id":"81551","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false}},"8880":{"*":{"id":"12513","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"":{"id":"12513","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"default":{"id":"12513","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false}},"8892":{"*":{"id":"48950","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"":{"id":"48950","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"default":{"id":"48950","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false}},"8934":{"*":{"id":"8286","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"*","async":false},"":{"id":"8286","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"","async":false},"default":{"id":"8286","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"default","async":false},"localhost_port":{"id":"8286","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"localhost_port","async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\login\\page":["static/css/66d0cfd7004960d6.css"],"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page":["static/css/eeb1ef3ac7b904f5.css"],"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\signup\\page":["static/css/66d0cfd7004960d6.css"],"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\layout":["static/css/c4eca1e59655af4d.css"]},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js#":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js#default":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default":{"id":"611","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js#":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default":{"id":"8331","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js#":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js#default":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default":{"id":"8892","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default":{"id":"8880","chunks":["272:webpack-00e261763861afd5","455:455-8a32473d4b24a201"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\style.module.css#":{"id":"7982","name":"","chunks":["static/css/66d0cfd7004960d6.css","static/css/eeb1ef3ac7b904f5.css"]},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js":{"id":"8934","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#":{"id":"8934","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#default":{"id":"8934","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#localhost_port":{"id":"8934","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"localhost_port","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\global.css#":{"id":"null","name":"","chunks":["static/css/66d0cfd7004960d6.css"]},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\login\\page.js":{"id":"7045","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\login\\page.js#":{"id":"7045","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\login\\page.js#default":{"id":"7045","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","626:app/login/page-80bce14320e743c2"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js":{"id":"2690","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js#":{"id":"2690","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js#Providers":{"id":"2690","chunks":["488:488-e2e20516042546fd","456:456-daaa4912f8795280","185:app/layout-1a80279318f5c60b"],"name":"Providers","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\signup\\page.js":{"id":"6587","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"*","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\signup\\page.js#":{"id":"6587","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\signup\\page.js#default":{"id":"6587","chunks":["772:4a89e91e-09e65f41ea52f38b","488:488-e2e20516042546fd","165:165-e02939a324efa94e","706:706-ef85618e135372e0","966:app/signup/page-4337d8e0802a239d"],"name":"default","async":false},"D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"100\",\"300\",\"500\",\"700\"]}],\"variableName\":\"text\"}#":{"id":"null","name":"","chunks":["static/css/c4eca1e59655af4d.css"]}}
+self.__RSC_MANIFEST={
+  "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/providers.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/providers.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/providers.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "Providers": {
+        "id": "(sc_client)/./src/app/providers.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "Providers",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      },
+      "localhost_port": {
+        "id": "(sc_client)/./src/app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "localhost_port",
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\layout": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Inter_argu-ebc64a.css"
+    ]
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js": {
+    "id": "(app-client)/./src/app/providers.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js#": {
+    "id": "(app-client)/./src/app/providers.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\providers.js#Providers": {
+    "id": "(app-client)/./src/app/providers.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "Providers",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\global.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css"
+    ]
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\style.module.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css"
+    ]
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js": {
+    "id": "(app-client)/./src/app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#": {
+    "id": "(app-client)/./src/app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#default": {
+    "id": "(app-client)/./src/app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\src\\app\\page.js#localhost_port": {
+    "id": "(app-client)/./src/app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "localhost_port",
+    "async": false
+  },
+  "D:\\----\\Ngoding\\Project\\NextJs\\Users\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"100\",\"300\",\"500\",\"700\"]}],\"variableName\":\"text\"}#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Inter_argu-ebc64a.css"
+    ]
+  }
+}
