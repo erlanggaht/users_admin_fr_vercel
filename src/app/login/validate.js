@@ -25,18 +25,24 @@ export default function validateLogin() {
                 (value) => value ? isEmailValidator(value,{allow_display_name: true,require_tld:true}) : new yup.ValidationError("Invalid value")),
                 password : Yup.string().min(8,'password minimal 8 karakter').required('password harus di isi').matches(/[a-zA-Z]/, 'Kata sandi hanya boleh berisi huruf latin'),
         }),
-        onSubmit : (values) => {
+        onSubmit : async (values) => {
             setButtonLoading(true)
             const {email,password} = values
-            axios(`${localhost_port}/login`,{
+            await axios(`${localhost_port}/login`,{
             method : "POST",
             data : {
                 email : email,
                 password : password
             },
+            headers : {
+                "Content-Type" : 'application/json',
+                'Access-Control-Allow-Origin' : '*',
+                'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',    
+            },
+            'Access-Control-Allow-Origin' : '*',
             withCredentials: true,
             }).then ((response)=> {
-                response.status === 200 ?  location.href = '/' : null
+                if(response) location.href = '/'
             }).catch(error => {
                 if(error.response){
                     setButtonLoading(false)
