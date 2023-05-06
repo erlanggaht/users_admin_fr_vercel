@@ -12,7 +12,7 @@ import ContextGlobal from "./dashboard/GlobalContext.js";
 import styles from './style.module.css'
 
 const port = '3002'
-export const localhost_port = `https://users-admin-bk-vercel.vercel.app`
+export const localhost_port = `http://users-admin-bk-vercel.vercel.app`
 
 export default function Page() {
   const [name, setName] = useState("");
@@ -30,15 +30,15 @@ export default function Page() {
 
   
   useEffect(() => {
-    refreshToken() 
-    // async function timeFunc () {
-    // await  
-    // setLoadingPage(false)
     
-    // }
-    // setTimeout(() => {
-    //   setLoadingPage(true)
-    // },timeFunc())
+    async function timeFunc () {
+    await  refreshToken() 
+    setLoadingPage(false)
+    
+    }
+    setTimeout(() => {
+      setLoadingPage(true)
+    },timeFunc())
     if (name) {
       setToastNotif({
         teks: "selamat datang kembali " + `${name}`,
@@ -117,7 +117,7 @@ export default function Page() {
     <>
 
     {/* Loading Awal Halaman */}
-    {/* {loadingPage ? <div className={styles.loadingPage}>
+    {loadingPage ? <div className={styles.loadingPage}>
     <Spinner
   thickness='4px'
   speed='0.65s'
@@ -126,7 +126,7 @@ export default function Page() {
   size='xl'
 />
     </div> : ""
-} */}
+}
 
     {/*  */}
 
