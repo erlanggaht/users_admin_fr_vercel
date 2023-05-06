@@ -54,6 +54,8 @@ export default function Page() {
     try {
       const response = await axios.get(`${localhost_port}/token`, {
         withCredentials: true,
+        'Access-Control-Allow-Origin' : '*',
+
       });
       setToken(response.data.accesstoken);
       const decoded = jwtDecode(response.data.accesstoken);
@@ -78,6 +80,7 @@ export default function Page() {
       if (expired * 1000 < currentDate.getTime()) {
         const response = await axios.get(`${localhost_port}/token`, {
           withCredentials: true,
+            'Access-Control-Allow-Origin' : '*',
         });
         config.headers.Authorization = `Bearer ${response.data.accesstoken}`;
         setToken(response.data.accesstoken);
