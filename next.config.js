@@ -11,6 +11,10 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  env : {
+    URL_HOST : "http://localhost:3002",
+    PORT : '3002'
+  }
 }
 
 module.exports = nextConfig

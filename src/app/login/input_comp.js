@@ -18,7 +18,7 @@ export const InputComponent = () => {
   return (
     <>
       {/* Toast Notif */}
-         {toastNotif.active ? <ToastStatusExample toastNotif={toastNotif} /> : ""}
+         {toastNotif.active === true ? <ToastStatusExample toastNotif={toastNotif} /> : ""}
       {/*  */}
     <form onSubmit={formik.handleSubmit}>
       <FormControl isRequired>

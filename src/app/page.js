@@ -11,8 +11,7 @@ import LoadingData from "./dashboard/components/loading.js";
 import ContextGlobal from "./dashboard/GlobalContext.js";
 import styles from './style.module.css'
 
-const port = '3002'
-export const localhost_port = `https://users-admin-bk-vercel.vercel.app`
+
 
 export default function Page() {
   const [name, setName] = useState("");
@@ -52,9 +51,9 @@ export default function Page() {
   const refreshToken = async () => {
   
     try {
-      const response = await axios.get(`${localhost_port}/token`, {
+      const response = await axios(`${process.env.URL_HOST}/token`, {
         withCredentials: true,
-        'Access-Control-Allow-Origin' : '*',
+        method : 'GET'
 
       });
       setToken(response.data.accesstoken);
@@ -78,9 +77,9 @@ export default function Page() {
     async (config) => {
       const currentDate = new Date();
       if (expired * 1000 < currentDate.getTime()) {
-        const response = await axios.get(`${localhost_port}/token`, {
+        const response = await axios(`${process.env.URL_HOST}/token`, {
+          method : "GET",
           withCredentials: true,
-            'Access-Control-Allow-Origin' : '*',
         });
         config.headers.Authorization = `Bearer ${response.data.accesstoken}`;
         setToken(response.data.accesstoken);
@@ -98,7 +97,7 @@ export default function Page() {
   async function getUsers() {
     setLoading(true)
     try {
-      const response = await fetchAPI.get(`${localhost_port}/users`, {
+      const response = await fetchAPI.get(`${process.env.URL_HOST}/users`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

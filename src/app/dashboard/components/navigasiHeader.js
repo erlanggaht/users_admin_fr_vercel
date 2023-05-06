@@ -37,9 +37,7 @@ export default function navigasiHeader({token,name,getUsers}) {
     if(!confirm('Yakin untuk keluar ?')){
       return false
     }
-
-
-    const response = await axios.delete(`${localhost_port}/logout`,{
+    const response = await axios.delete(`${process.env.URL_HOST}/logout`,{
       withCredentials : true
     })
   location.href = '/'    

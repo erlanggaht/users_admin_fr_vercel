@@ -3,16 +3,14 @@ import * as Yup from 'yup'
 import isEmailValidator from 'validator/lib/isEmail';
 import axios from "axios";
 import { useState } from "react";
-import { localhost_port } from "../page";
 
 export default function validateLogin() {
     const [loadingButton,setButtonLoading] = useState(false)
     const [toastNotif, setToastNotif] = useState({
         teks: "",
-        status: "success",
-        active: "",
+        status: "",
+        active: false,
       });
-
     const formik = useFormik({
         initialValues : {
             email : "",
@@ -28,7 +26,7 @@ export default function validateLogin() {
         onSubmit : async (values) => {
             setButtonLoading(true)
             const {email,password} = values
-            await axios(`${localhost_port}/login`,{
+            await axios(`${process.env.URL_HOST}/login`,{
             method : "POST",
             data : {
                 email : email,
@@ -36,14 +34,11 @@ export default function validateLogin() {
             },
             headers : {
                 "Content-Type" : 'application/json',
-                'Access-Control-Allow-Origin' : '*',
-                'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',    
             },
-            'Access-Control-Allow-Origin' : '*',
             withCredentials: true,
             }).then ((response)=> {
                 if(response.status == 200 ){
-                    location.href = '/'
+                   console.log(response)
                 }else {
                     setTimeout(()=>{
                         setToastNotif({
@@ -54,18 +49,25 @@ export default function validateLogin() {
                     },0)
                
                 }
-            }).catch(error => {
-                if(error.response){
+            }).catch( error => {
+                if(error){
                     setButtonLoading(false)
-                    setTimeout(()=>{
-                        setToastNotif({
+                    setToastNotif({
                             teks: error.response.data.msg,
                             status: "error",
-                            active: false,
+                            active: true,
                           });
-                    },0)
+                   
                 }
-                })
+                setTimeout(()=>{
+                    setToastNotif({
+                        teks: "",
+                        status: "",
+                        active: false,
+                    })
+                    })
+                },700)
+               
               
 
         }

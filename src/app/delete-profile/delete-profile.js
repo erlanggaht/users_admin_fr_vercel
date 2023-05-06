@@ -5,7 +5,7 @@ export default async function DeleteProfile(decodedJwtEmail) {
     try {
       
         if(confirm('Yakin menghapus akun ?')) {
-            const deleteUser = await axios.delete(`${localhost_port}/delete`,{
+            const deleteUser = await axios.delete(`${process.env.URL_HOST}/delete`,{
             data : {
                 email : decodedJwtEmail
             },

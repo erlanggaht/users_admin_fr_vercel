@@ -44,7 +44,7 @@ export const formikValidate = () => {
         }),
         onSubmit : (values) => {
             const {nama,email,password,konfirmasiPassword} = values
-            axios(`${localhost_port}/register`,{
+            axios(`${process.env.URL_HOST}/register`,{
                 method : "POST",
                 data : {
                     nama,
