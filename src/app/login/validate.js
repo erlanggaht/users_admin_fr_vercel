@@ -42,15 +42,21 @@ export default function validateLogin() {
             'Access-Control-Allow-Origin' : '*',
             withCredentials: true,
             }).then ((response)=> {
-                if(response) location.href = '/'
+                if(response.status == 200 ){
+                    location.href = '/'
+                }else {
+                    setTimeout(()=>{
+                        setToastNotif({
+                            teks: 'Ada kesalahan',
+                            status: "error",
+                            active: true,
+                          });
+                    },0)
+               
+                }
             }).catch(error => {
                 if(error.response){
                     setButtonLoading(false)
-                    setToastNotif({
-                        teks: error.response.data.msg,
-                        status: "error",
-                        active: true,
-                      });
                     setTimeout(()=>{
                         setToastNotif({
                             teks: error.response.data.msg,

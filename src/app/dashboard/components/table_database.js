@@ -69,7 +69,7 @@ export default function TableDatabase({ data, decodedJwt }) {
       </Theads>
         }
         
-        <Tbodys style={{  display: hide && "none"}}>
+        <Tbodys style={{  display: "none" && "none"}}>
           {data &&
             data.map((m, i) => {
               return (
