@@ -3,6 +3,7 @@ import * as Yup from 'yup'
 import isEmailValidator from 'validator/lib/isEmail';
 import axios from "axios";
 import { useState } from "react";
+import {useRouter} from "next/router";
 
 export default function validateLogin() {
     const [loadingButton,setButtonLoading] = useState(false)
@@ -11,6 +12,7 @@ export default function validateLogin() {
         status: "",
         active: false,
       });
+    const router = useRouter();
     const formik = useFormik({
         initialValues : {
             email : "",
@@ -38,7 +40,7 @@ export default function validateLogin() {
             withCredentials: true,
             }).then ((response)=> {
                 if(response.status == 200 ){
-                   console.log(response)
+                   router.push('/')
                 }else {
                     setTimeout(()=>{
                         setToastNotif({
