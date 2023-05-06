@@ -12,7 +12,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   env : {
-    URL_HOST : "http://localhost:3002",
+    URL_HOST : "https://users-admin-bk-vercel.vercel.app",
     PORT : '3002'
   }
 }
